@@ -1,0 +1,21 @@
+Author: Phillip Wilt
+
+License: See COPYING
+
+Version: 0.1a
+
+Edit settings for your port, baud rate, and factor to scale by in bandwidthMon.c.
+
+I use a scale of 500 for bandwidth values between 0 and 50 MBps, with 50Mbps being max.
+
+Edit pin settings for your arduino in main.cpp and upload to your arduino.
+
+Compile bandwidthMon.c, execute and enjoy.
+
+
+
+TODO:
+
+Enter port, baud rate, delay, and scale factor from the command line.
+
+Python version to be added soon for comparison.
